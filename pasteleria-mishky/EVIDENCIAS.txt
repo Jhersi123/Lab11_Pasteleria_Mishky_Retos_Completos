@@ -1,0 +1,11 @@
+EVIDENCIAS PARA PRESENTAR (E1–E10)
+E1 Buscador: Tortas activa + "torta" + estado visible.
+E2 Orden: Menor precio y primera tarjeta.
+E3 Disponibles: casilla marcada + estado.
+E4 Contadores: categorías recalculadas con búsqueda/stock.
+E5 URL: hash #Tortas y categoría inválida que vuelve a Todas.
+E6 Validación: aviso visible y console.table (prueba temporal).
+E7 Fantasmas: throttling de red en DevTools, aria-hidden y aria-busy.
+E8 Diálogo: detalle abierto y foco devuelto al cerrar.
+E9 Imágenes: Network en modo móvil antes/después de desplazarse.
+E10 Errores: capturas de 404, JSON inválido, fallo de red y aria-pressed.
