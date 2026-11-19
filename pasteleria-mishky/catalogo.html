@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,21 +9,30 @@
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Nunito:wght@400;700;800&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="css/estilos.css" />
   <script src="js/catalogo.js" defer></script>
 </head>
+
 <body>
   <header class="cabecera">
     <div class="contenedor cabecera__fila">
-      <a href="catalogo.html" class="marca" aria-label="Pastelería Mishky, inicio"><img src="img/logo.svg" alt="Pastelería Mishky" width="180" height="52" /></a>
-      <nav aria-label="Principal"><ul class="menu"><li><a href="#catalogo" aria-current="page">Catálogo</a></li><li><a href="#contacto">Contacto</a></li></ul></nav>
+      <a href="catalogo.html" class="marca" aria-label="Pastelería Mishky, inicio"><img src="img/logo.svg"
+          alt="Pastelería Mishky" width="180" height="52" /></a>
+      <nav aria-label="Principal">
+        <ul class="menu">
+          <li><a href="#catalogo" aria-current="page">Catálogo</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
   <section class="hero">
     <div class="contenedor hero__texto">
       <p class="hero__antetitulo">Hecho a mano en Cusco desde 2012</p>
-      <h1>Dulces que se recuerdan</h1>
+      <h1>Un mundo dulces momentos</h1>
       <p>Tortas, postres peruanos, panes y galletas horneados cada mañana.</p>
       <a class="hero__boton" href="#catalogo">Descubrir catálogo</a>
     </div>
@@ -60,9 +70,11 @@
   </footer>
   <template id="tpl-producto">
     <li class="tarjeta">
-      <figure class="tarjeta__foto"><img width="600" height="600" loading="lazy" alt="" /><span class="etiqueta" hidden></span></figure>
+      <figure class="tarjeta__foto"><img width="600" height="600" loading="lazy" alt="" /><span class="etiqueta"
+          hidden></span></figure>
       <div class="tarjeta__cuerpo">
-        <p class="tarjeta__categoria"></p><h3 class="tarjeta__nombre"></h3>
+        <p class="tarjeta__categoria"></p>
+        <h3 class="tarjeta__nombre"></h3>
         <p class="tarjeta__descripcion"></p>
         <div class="tarjeta__pie"><span class="tarjeta__precio"></span><span class="tarjeta__porciones"></span></div>
       </div>
@@ -83,4 +95,5 @@
     </div>
   </dialog>
 </body>
+
 </html>
