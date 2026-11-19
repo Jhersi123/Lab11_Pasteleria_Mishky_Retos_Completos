@@ -175,4 +175,16 @@
     "stock": 9,
     "destacado": false
   }
+  ,
+ {
+    "id": 17,
+    "nombre": "Caja de alfajores bañados en chocolate",
+    "categoria": "Galletas y bocaditos",
+    "descripcion": "Deliciosos alfajores rellenos de manjar blanco y cubiertos con chocolate.",
+    "precio": 22.5,
+    "porciones": 6,
+    "imagen": "img/productos/alfajores.jpg",
+    "stock": 10,
+    "destacado": true
+  }
 ]
